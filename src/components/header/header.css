@@ -1,10 +1,33 @@
 .App-header{
     margin-bottom:  10px;
-    border: 1px solid red;
+    padding: 0%;
+    margin: 0%;
 } 
 .inner-header{
-    background: #3d3c66;
-    height:200px;
-    color: white;
+    background: rgb(52, 58, 64);
+    height:55px;
     font-size: 30px;
+}
+.inner-header a{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header_left_links{
+    float: left;
+}
+.header_left_links a:hover {
+    color: green;
+  }
+.header_left_links a.active {
+    color: green;
+    border-bottom: 2px solid green;
+    transition: border .2s;
+  }
+.header_right_links{
+    float: right;
 }
