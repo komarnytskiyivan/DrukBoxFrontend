@@ -5,23 +5,25 @@
 } 
 .inner-header{
     background: rgb(52, 58, 64);
-    height:55px;
+    height:70px;
     font-size: 30px;
 }
 .inner-header a{
     text-decoration: none;
     color: white;
     border-radius: 4px;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
     font-size: 18px;
     line-height: 25px;
 }
 .header_left_links{
     float: left;
+    padding-top: 1%;
 }
 .header_left_links a:hover {
     color: green;
+    margin-top: 20px;
   }
 .header_left_links a.active {
     color: green;
@@ -30,4 +32,5 @@
   }
 .header_right_links{
     float: right;
+    padding-top: 1%;
 }
